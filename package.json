@@ -1,0 +1,12 @@
+{
+  "name": "SkiffMail Electron app",
+  "version": "1.0.0",
+  "description": "A client for SkiffMail using electron",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "devDependencies": {
+    "electron": "^26.2.1"
+  }
+}
