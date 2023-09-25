@@ -9,7 +9,7 @@ app.whenReady().then(() => {
         height: 600,
         icon: path.join(__dirname, './public/app.png'),
         webPreferences: {
-            nodeIntegration: true, // is default value after Electron v5
+            nodeIntegration: false, // is default value after Electron v5
             contextIsolation: true, // protect against prototype pollution
             enableRemoteModule: false, // turn off remote
         }
