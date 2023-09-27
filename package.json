@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "A client for SkiffMail using electron",
   "main": "main.js",
+  "author": {
+    "name": "Your Name",
+    "email": "youremail@example.com"
+  },
   "scripts": {
     "start": "electron .",
     "pack": "npx electron-builder --dir",
