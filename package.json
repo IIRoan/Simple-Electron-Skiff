@@ -12,8 +12,8 @@
   },
   "build": {
     "appId": "com.roan.skiff",
-    "deb": {
-      "category": "Office"
+    "linux": {
+      "target": "deb"
     }
   }
 }
