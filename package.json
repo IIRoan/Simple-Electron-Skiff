@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "A client for SkiffMail using electron",
   "main": "main.js",
+  "icon": "public/appstore.png",
   "author": {
-    "name": "Your Name",
-    "email": "youremail@example.com"
+    "name": "IIRoan",
+    "email": "public@roan.dev"
   },
   "scripts": {
     "start": "electron .",
@@ -18,8 +19,12 @@
   },
   "build": {
     "appId": "com.roan.skiff",
+    "icon": "public/appstore.png",
     "linux": {
-      "target": "deb"
+      "target": "deb",
+      "icon": "public/appstore.png",
+      "category": "Utility"
     }
   }
 }
+
